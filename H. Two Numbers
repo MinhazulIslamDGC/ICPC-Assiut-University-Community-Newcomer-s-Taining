@@ -1,0 +1,19 @@
+// H Two Numbers
+
+# include <iostream>
+# include <cmath>
+using namespace std;
+
+int main()
+{
+    float A, B;
+    cin >> A >> B;
+    float div;
+    div = A/B;
+    
+    cout << "floor " << A << " / " << B << " = " << floor(div) << '\n';
+    
+    cout << "ceil " << A << " / " << B << " = " << ceil(div) << '\n';
+    
+    cout << "round " << A << " / " << B << " = " << round(div) << '\n';
+}

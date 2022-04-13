@@ -1,0 +1,14 @@
+// F Digits Summation
+
+# include <iostream>
+using namespace std;
+int main()
+{
+    long long N, M;
+    cin >> N >> M;
+    int x, y, ans;
+    x = N % 10;
+    y = M % 10;
+    ans = x+y;
+    cout << ans << '\n';
+}

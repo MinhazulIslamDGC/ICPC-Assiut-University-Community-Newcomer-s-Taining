@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-    float A, B;
+    float A, B; // While using the ceil/floor/round operators, data type of the numbers must be float/double/long double
     cin >> A >> B;
-    float div;
+    float div;  // Same reason
     div = A/B;
     
     cout << "floor " << A << " / " << B << " = " << floor(div) << '\n';
